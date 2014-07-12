@@ -71,7 +71,7 @@ plot2 <- function() {
     plot(data$Time, data$Global_active_power,  ## the data we use
          type = 'l',  ## lines
          xlab = "",  ## the x-axis label is empty
-         ylab = "Global Active Power (kilowatts)")  ## the y-axis label
+         ylab = "Global Active Power")  ## the y-axis label
 }
 
 # this function draws the same as plot3.R, but with no border for the legend box
